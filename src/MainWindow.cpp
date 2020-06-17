@@ -110,11 +110,14 @@ MainWindow::MainWindow(
     buttonGenerate->setMaximumWidth(200);
     QPushButton* buttonSave = new QPushButton("Save code");
     buttonSave->setMaximumWidth(200);
+    QPushButton* buttonRun = new QPushButton("Run code");
+    buttonRun->setMaximumWidth(200);
     QWidget* codeGroup = new QWidget();
     QHBoxLayout* codeBox = new QHBoxLayout(codeGroup);
 //    codeGroup->setLayout(codeBox);
     codeBox->addWidget(buttonGenerate);
     codeBox->addWidget(buttonSave);
+    codeBox->addWidget(buttonRun);
     codeGroup->setMaximumWidth(400);
 //    codeBox->setAlignment(buttonSave, Qt::AlignLeft);
 //    codeBox->setAlignment(buttonGenerate, Qt::AlignLeft);
