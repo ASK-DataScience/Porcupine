@@ -140,6 +140,7 @@ MainWindow::MainWindow(
 
     connect(buttonGenerate, SIGNAL(released()), this, SLOT(nodeToCode()));
     connect(buttonSave, SIGNAL(released()), this, SLOT(saveCode()));
+    connect(buttonRun, SIGNAL(released()), this, SLOT(runCode()));
     connect(buttonZoomIn, SIGNAL(released()), this, SLOT(zoomIn()));
     connect(buttonZoomOut, SIGNAL(released()), this, SLOT(zoomOut()));
     connect(m_nodeEditorWidget, SIGNAL(currentChanged(int)), this, SLOT(setFileAt(int)));
@@ -186,6 +187,12 @@ void MainWindow::saveCode(
         )
 {
     m_codeEditors[m_currentFileIndex]->saveCodeToFile();
+}
+
+void MainWindow::runCode(
+        )
+{
+    m_codeEditors[m_currentFileIndex]->runCodeCMD();
 }
 
 void MainWindow::contextMenuEvent(

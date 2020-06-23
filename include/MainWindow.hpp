@@ -127,6 +127,9 @@ public slots:
     //
     void saveCode(
             );
+    //
+    void runCode(
+            );
 private:
     void createActions(
             );

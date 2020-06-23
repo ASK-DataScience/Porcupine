@@ -145,6 +145,11 @@ void CodeEditor::saveCodeToFile(
     }
 }
 
+void CodeEditor::runCodeCMD()
+{
+
+}
+
 void CodeEditor::setupTvmEditor(
         )
 {

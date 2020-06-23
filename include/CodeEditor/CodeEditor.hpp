@@ -48,6 +48,10 @@ public:
     //
     void saveCodeToFile(
             );
+
+    //
+    void runCodeCMD(
+            );
     //
     void setParameterEditor(
             ParameterEditor* _editor
