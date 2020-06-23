@@ -24,6 +24,8 @@
 #include <QDebug>
 #include <QFileDialog>
 #include <QTextEdit>
+#include <QProcess>
+#include <QMessageBox>
 
 #include "CodeEditor.hpp"
 #include "CodeGenerator.hpp"
@@ -147,6 +149,28 @@ void CodeEditor::saveCodeToFile(
 
 void CodeEditor::runCodeCMD()
 {
+    //QProcess cmd;
+    //cmd.start("cmd");
+   // QString command = " docker run --rm -ti";
+    //        command = command + " --mount type=bind,source=\"%cd%\"/Data,target=/Data";
+     //       command = command + " --mount type=bind,source=\"%cd%\"/results2,target=/Porcupine/";
+      //      command = command + " --mount type=bind,source=\"%cd%\"/results2,target=/tmp/";
+       //     command = command + " nipype-fmri-por2";
+    QString command = " docker run --rm -ti";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data,target=/Data";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results2,target=/Porcupine/";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results2,target=/tmp/";
+            command = command + " nipype-fmri-por2";
+    QMessageBox msgWarning;
+            msgWarning.setText(command);
+            msgWarning.setIcon(QMessageBox::Warning);
+            msgWarning.setWindowTitle("Caution");
+            msgWarning.exec();
+    qDebug()  << "Systemcall: command_name =" << command;
+    system(command.toUtf8());
+    //QProcess::execute(command.toUtf8());
+    //QProcess::execute("cmd /c mkdir Test");
+
 
 }
 
