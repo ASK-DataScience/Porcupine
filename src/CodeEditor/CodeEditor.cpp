@@ -156,16 +156,26 @@ void CodeEditor::runCodeCMD()
      //       command = command + " --mount type=bind,source=\"%cd%\"/results2,target=/Porcupine/";
       //      command = command + " --mount type=bind,source=\"%cd%\"/results2,target=/tmp/";
        //     command = command + " nipype-fmri-por2";
+
+    //Docker Build
+    //QString commandBuild = "docker build -t nipype-fmri-original-code -f C:/Users/akhaled/Documents/Dockerfile.txt C:/Users/akhaled/Documents/";
+    //system(commandBuild.toUtf8());
+
+    //Docker Run
     QString command = " docker run --rm -ti";
             command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data,target=/Data";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results2,target=/Porcupine/";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results2,target=/tmp/";
-            command = command + " nipype-fmri-por2";
-    QMessageBox msgWarning;
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/Porcupine/";
+            //command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/tmp/";
+            //command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/results/";
+            //command = command + " nipype-fmri-por2";
+            command = command + " nipype-fmri-original-code";
+
+
+    /*QMessageBox msgWarning;
             msgWarning.setText(command);
             msgWarning.setIcon(QMessageBox::Warning);
             msgWarning.setWindowTitle("Caution");
-            msgWarning.exec();
+            msgWarning.exec();*/
     qDebug()  << "Systemcall: command_name =" << command;
     system(command.toUtf8());
     //QProcess::execute(command.toUtf8());
