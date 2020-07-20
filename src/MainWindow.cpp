@@ -77,12 +77,19 @@ MainWindow::MainWindow(
     new QVBoxLayout(m_codeEditorWidget);
     new QVBoxLayout(m_parameterWidget);
 
+    // set widgets dimensions
+    m_parameterWidget->setMaximumHeight(250);
+    m_parameterWidget->setMaximumWidth(500);
+
     //Make the MainWindow and its layout for the central widget
     QSplitter* mainWidget = new QSplitter(Qt::Horizontal, this);
     setCentralWidget(mainWidget);
 
     //Add the panels to the layout
-    mainWidget->addWidget(m_nodeTreeWidget);
+    QSplitter* leftWidget = new QSplitter(Qt::Vertical, mainWidget);
+    leftWidget->addWidget(m_parameterWidget);
+    leftWidget->addWidget(m_nodeTreeWidget);
+    //mainWidget->addWidget(m_nodeTreeWidget);
     QSplitter* rightWidget = new QSplitter(Qt::Vertical, mainWidget);
 
     // Create a widget containing the zoom buttons
@@ -104,7 +111,7 @@ MainWindow::MainWindow(
     QSplitter* nodeEditor = new QSplitter(Qt::Horizontal, rightWidget);
     m_nodeEditorWidget->setTabsClosable(true);
     nodeEditor->addWidget(m_nodeEditorWidget);
-    nodeEditor->addWidget(m_parameterWidget);
+    //nodeEditor->addWidget(m_parameterWidget);
 
     QPushButton* buttonGenerate = new QPushButton("Generate code");
     buttonGenerate->setMaximumWidth(200);
@@ -112,12 +119,15 @@ MainWindow::MainWindow(
     buttonSave->setMaximumWidth(200);
     QPushButton* buttonRun = new QPushButton("Run code");
     buttonRun->setMaximumWidth(200);
+    QPushButton* buttonSaveResults = new QPushButton("Save results");
+    buttonRun->setMaximumWidth(200);
     QWidget* codeGroup = new QWidget();
     QHBoxLayout* codeBox = new QHBoxLayout(codeGroup);
 //    codeGroup->setLayout(codeBox);
     codeBox->addWidget(buttonGenerate);
     codeBox->addWidget(buttonSave);
     codeBox->addWidget(buttonRun);
+    codeBox->addWidget(buttonSaveResults);
     codeGroup->setMaximumWidth(400);
 //    codeBox->setAlignment(buttonSave, Qt::AlignLeft);
 //    codeBox->setAlignment(buttonGenerate, Qt::AlignLeft);
@@ -141,6 +151,7 @@ MainWindow::MainWindow(
     connect(buttonGenerate, SIGNAL(released()), this, SLOT(nodeToCode()));
     connect(buttonSave, SIGNAL(released()), this, SLOT(saveCode()));
     connect(buttonRun, SIGNAL(released()), this, SLOT(runCode()));
+    connect(buttonSaveResults, SIGNAL(released()), this, SLOT(saveResults()));
     connect(buttonZoomIn, SIGNAL(released()), this, SLOT(zoomIn()));
     connect(buttonZoomOut, SIGNAL(released()), this, SLOT(zoomOut()));
     connect(m_nodeEditorWidget, SIGNAL(currentChanged(int)), this, SLOT(setFileAt(int)));
@@ -193,6 +204,12 @@ void MainWindow::runCode(
         )
 {
     m_codeEditors[m_currentFileIndex]->runCodeCMD();
+}
+
+void MainWindow::saveResults(
+        )
+{
+    m_codeEditors[m_currentFileIndex]->saveResultsCMD();
 }
 
 void MainWindow::contextMenuEvent(

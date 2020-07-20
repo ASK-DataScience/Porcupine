@@ -158,17 +158,19 @@ void CodeEditor::runCodeCMD()
        //     command = command + " nipype-fmri-por2";
 
     //Docker Build
-    //QString commandBuild = "docker build -t nipype-fmri-original-code -f C:/Users/akhaled/Documents/Dockerfile.txt C:/Users/akhaled/Documents/";
-    //system(commandBuild.toUtf8());
+    QString commandBuild = "docker build -t nipype-fmri-por-code-datasink-all-qt-3subjects-nopar-separateresults -f C:/Users/akhaled/Documents/Dockerfile.txt C:/Users/akhaled/Documents/";
+    system(commandBuild.toUtf8());
 
     //Docker Run
     QString command = " docker run --rm -ti";
             command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data,target=/Data";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/Porcupine/";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/work/";
             //command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/tmp/";
-            //command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/results/";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data/sub-01/working,target=/results-01/";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data/sub-02/working,target=/results-02/";
+            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data/sub-03/working,target=/results-03/";
             //command = command + " nipype-fmri-por2";
-            command = command + " nipype-fmri-original-code";
+            command = command + " nipype-fmri-por-code-datasink-all-qt-3subjects-nopar-separateresults";
 
 
     /*QMessageBox msgWarning;
@@ -181,6 +183,11 @@ void CodeEditor::runCodeCMD()
     //QProcess::execute(command.toUtf8());
     //QProcess::execute("cmd /c mkdir Test");
 
+
+}
+
+void CodeEditor::saveResultsCMD()
+{
 
 }
 

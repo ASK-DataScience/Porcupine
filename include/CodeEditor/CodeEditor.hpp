@@ -52,6 +52,11 @@ public:
     //
     void runCodeCMD(
             );
+
+    //
+    void saveResultsCMD(
+            );
+
     //
     void setParameterEditor(
             ParameterEditor* _editor

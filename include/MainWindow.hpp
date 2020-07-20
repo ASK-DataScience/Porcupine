@@ -130,6 +130,9 @@ public slots:
     //
     void runCode(
             );
+    //
+    void saveResults(
+            );
 private:
     void createActions(
             );
