@@ -604,6 +604,9 @@ void MainWindow::createMenus()
     m_postitMenu = menuBar()->addMenu(tr("Post-its"));
     m_postitMenu->addAction(m_postitAct);
 
+    m_pipelineMenu = menuBar()->addMenu(tr("Pipelines"));
+    m_pipelineMenu->addAction(m_loadPipelinesAct);
+
     connect(m_nodesMenu, SIGNAL(triggered(QAction*)), this, SLOT(nodeSlot(QAction*)));
 }
 

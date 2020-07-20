@@ -165,12 +165,14 @@ private:
     QMenu* m_viewMenu;
     QMenu* m_nodesMenu;
     QMenu* m_postitMenu;
+    QMenu* m_pipelineMenu;
 
     QAction* m_newAct;
     QAction* m_openAct;
     QAction* m_saveToJsonAct;
     QAction* m_exportAct;
     QAction* m_loadNodesAct;
+    QAction* m_loadPipelinesAct;
     QAction* m_exitAct;
     QAction* m_undoAct;
     QAction* m_redoAct;
