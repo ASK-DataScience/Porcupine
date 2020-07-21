@@ -2,6 +2,8 @@
 #include <QJsonObject>
 #include <QJsonArray>
 
+#include <QMessageBox>
+
 #include "ParameterEditor.hpp"
 
 ParameterEditor::ParameterEditor(
@@ -17,11 +19,20 @@ ParameterEditor::ParameterEditor(
     QStringList labels;
     labels << tr("Parameter") << tr("Value");
     setHorizontalHeaderLabels(labels);
+    setColumnWidth(0,200);
 
     int row = rowCount();
     insertRow(row);
+    setItem(row, 0, new QTableWidgetItem("OutputDirectory"));
+    setItem(row, 1, new QTableWidgetItem("\"/Output\""));
+
+    insertRow(row);
+    setItem(row, 0, new QTableWidgetItem("SubjectsDirectory"));
+    setItem(row, 1, new QTableWidgetItem("\"/Data\""));
+
+    insertRow(row);
     setItem(row, 0, new QTableWidgetItem("WorkingDirectory"));
-    setItem(row, 1, new QTableWidgetItem("\"~/Porcupipelines/ThisStudy\""));
+    setItem(row, 1, new QTableWidgetItem("\"C:/\""));
 
     insertRow(rowCount());
 
