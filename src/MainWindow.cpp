@@ -360,6 +360,15 @@ void MainWindow::saveFileToJson(
         file.write(saveDoc.toJson());
     }
     file.close();
+
+    //open new saved file
+    int oldFileTabIndex = m_nodeEditorWidget->currentIndex();
+    openFile (fileName);
+    closeTab(oldFileTabIndex);
+    //m_nodeEditorWidget->removeTab(oldFileTabIndex);
+    //m_nodeEditorWidget->removeTab(currentTabIndex);
+    //m_nodeEditorWidget->setTabText(m_nodeEditorWidget->currentIndex(),  file.fileName());
+    //m_nodeEditors     [m_nodeEditorWidget->currentIndex()]->setFileName(file.fileName());
 }
 
 void MainWindow::openFile()

@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "spm.Analyze2nii",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#analyze2nii",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -247,7 +247,7 @@
       ],
       "title": {
         "name": "spm.ApplyInverseDeformation",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#applyinversedeformation",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -486,7 +486,7 @@
       ],
       "title": {
         "name": "spm.ApplyTransform",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#applytransform",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -665,7 +665,7 @@
       ],
       "title": {
         "name": "spm.CalcCoregAffine",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#calccoregaffine",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -874,7 +874,7 @@
       ],
       "title": {
         "name": "spm.Coregister",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#coregister",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1203,7 +1203,7 @@
       ],
       "title": {
         "name": "spm.CreateWarped",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#createwarped",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1412,7 +1412,7 @@
       ],
       "title": {
         "name": "spm.DARTEL",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#dartel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1651,7 +1651,7 @@
       ],
       "title": {
         "name": "spm.DARTELNorm2MNI",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#dartelnorm2mni",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1905,7 +1905,7 @@
       ],
       "title": {
         "name": "spm.DicomImport",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#dicomimport",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -2114,7 +2114,7 @@
       ],
       "title": {
         "name": "spm.EstimateContrast",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#estimatecontrast",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -2398,7 +2398,7 @@
       ],
       "title": {
         "name": "spm.EstimateModel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#estimatemodel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -2742,7 +2742,7 @@
       ],
       "title": {
         "name": "spm.Level1Design",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#level1design",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -3071,7 +3071,7 @@
       ],
       "title": {
         "name": "spm.MultipleRegressionDesign",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#multipleregressiondesign",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -3430,7 +3430,7 @@
       ],
       "title": {
         "name": "spm.NewSegment",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#newsegment",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -3789,7 +3789,7 @@
       ],
       "title": {
         "name": "spm.Normalize",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#normalize",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -4238,7 +4238,7 @@
       ],
       "title": {
         "name": "spm.Normalize12",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#normalize12",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -4627,7 +4627,7 @@
       ],
       "title": {
         "name": "spm.OneSampleTTestDesign",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#onesamplettestdesign",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -4956,7 +4956,7 @@
       ],
       "title": {
         "name": "spm.PairedTTestDesign",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#pairedttestdesign",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -5315,7 +5315,7 @@
       ],
       "title": {
         "name": "spm.Realign",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#realign",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -5704,7 +5704,7 @@
       ],
       "title": {
         "name": "spm.Reslice",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#reslice",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -5898,7 +5898,7 @@
       ],
       "title": {
         "name": "spm.ResliceToReference",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/utils.html#reslicetoreference",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -6107,7 +6107,7 @@
       ],
       "title": {
         "name": "spm.Segment",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#segment",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -6646,7 +6646,7 @@
       ],
       "title": {
         "name": "spm.SliceTiming",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#slicetiming",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -6885,7 +6885,7 @@
       ],
       "title": {
         "name": "spm.Smooth",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#smooth",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -7094,7 +7094,7 @@
       ],
       "title": {
         "name": "spm.Threshold",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#threshold",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -7453,7 +7453,7 @@
       ],
       "title": {
         "name": "spm.TwoSampleTTestDesign",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/model.html#twosamplettestdesign",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -7827,7 +7827,7 @@
       ],
       "title": {
         "name": "spm.VBMSegment",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.spm/preprocess.html#vbmsegment",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.preprocess.html",
         "code": [
           {
             "language": "Nipype",

@@ -7,7 +7,7 @@
       ],
       "title": {
         "name": "io.DataFinder",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#datafinder",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -140,7 +140,7 @@
       ],
       "title": {
         "name": "io.DataGrabber",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#datagrabber",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -258,7 +258,7 @@
       ],
       "title": {
         "name": "io.DataSink",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#datasink",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -496,7 +496,7 @@
       ],
       "title": {
         "name": "io.FreeSurferSource",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#freesurfersource",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1139,7 +1139,7 @@
       ],
       "title": {
         "name": "io.JSONFileGrabber",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#jsonfilegrabber",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1212,7 +1212,7 @@
       ],
       "title": {
         "name": "io.JSONFileSink",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#jsonfilesink",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1315,7 +1315,7 @@
       ],
       "title": {
         "name": "io.MySQLSink",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#mysqlsink",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1448,7 +1448,7 @@
       ],
       "title": {
         "name": "io.S3DataGrabber",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#s3datagrabber",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1626,7 +1626,7 @@
       ],
       "title": {
         "name": "io.SQLiteSink",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#sqlitesink",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1699,7 +1699,7 @@
       ],
       "title": {
         "name": "io.SSHDataGrabber",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#sshdatagrabber",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -1907,7 +1907,7 @@
       ],
       "title": {
         "name": "io.SelectFiles",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#selectfiles",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -2010,7 +2010,7 @@
       ],
       "title": {
         "name": "io.XNATSink",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#xnatsink",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",
@@ -2233,7 +2233,7 @@
       ],
       "title": {
         "name": "io.XNATSource",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.interfaces.io.html#xnatsource",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.io.html",
         "code": [
           {
             "language": "Nipype",

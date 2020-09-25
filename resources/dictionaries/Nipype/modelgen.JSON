@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "modelgen.SpecifyModel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.modelgen.html#specifymodel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.modelgen.html",
         "code": [
           {
             "language": "Nipype",
@@ -202,7 +202,7 @@
       ],
       "title": {
         "name": "modelgen.SpecifySPMModel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.modelgen.html#specifyspmmodel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.modelgen.html",
         "code": [
           {
             "language": "Nipype",
@@ -426,7 +426,7 @@
       ],
       "title": {
         "name": "modelgen.SpecifySparseModel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.modelgen.html#specifysparsemodel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.modelgen.html",
         "code": [
           {
             "language": "Nipype",

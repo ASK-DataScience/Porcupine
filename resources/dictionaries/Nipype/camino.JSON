@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "camino.AnalyzeHeader",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#analyzeheader",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -442,7 +442,7 @@
       ],
       "title": {
         "name": "camino.ComputeEigensystem",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#computeeigensystem",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -636,7 +636,7 @@
       ],
       "title": {
         "name": "camino.ComputeFractionalAnisotropy",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#computefractionalanisotropy",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -830,7 +830,7 @@
       ],
       "title": {
         "name": "camino.ComputeMeanDiffusivity",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#computemeandiffusivity",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -1024,7 +1024,7 @@
       ],
       "title": {
         "name": "camino.ComputeTensorTrace",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#computetensortrace",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -1218,7 +1218,7 @@
       ],
       "title": {
         "name": "camino.Conmat",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/connectivity.html#conmat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.connectivity.html",
         "code": [
           {
             "language": "Nipype",
@@ -1442,7 +1442,7 @@
       ],
       "title": {
         "name": "camino.DT2NIfTI",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#dt2nifti",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -1621,7 +1621,7 @@
       ],
       "title": {
         "name": "camino.DTIFit",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#dtifit",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -1800,7 +1800,7 @@
       ],
       "title": {
         "name": "camino.DTLUTGen",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#dtlutgen",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -2084,7 +2084,7 @@
       ],
       "title": {
         "name": "camino.DTMetric",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#dtmetric",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -2278,7 +2278,7 @@
       ],
       "title": {
         "name": "camino.FSL2Scheme",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#fsl2scheme",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -2547,7 +2547,7 @@
       ],
       "title": {
         "name": "camino.Image2Voxel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#image2voxel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -2696,7 +2696,7 @@
       ],
       "title": {
         "name": "camino.ImageStats",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/utils.html#imagestats",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -2860,7 +2860,7 @@
       ],
       "title": {
         "name": "camino.LinRecon",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/odf.html#linrecon",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.odf.html",
         "code": [
           {
             "language": "Nipype",
@@ -3069,7 +3069,7 @@
       ],
       "title": {
         "name": "camino.MESD",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/odf.html#mesd",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.odf.html",
         "code": [
           {
             "language": "Nipype",
@@ -3308,7 +3308,7 @@
       ],
       "title": {
         "name": "camino.ModelFit",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#modelfit",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -3652,7 +3652,7 @@
       ],
       "title": {
         "name": "camino.NIfTIDT2Camino",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#niftidt2camino",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -3876,7 +3876,7 @@
       ],
       "title": {
         "name": "camino.PicoPDFs",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#picopdfs",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -4100,7 +4100,7 @@
       ],
       "title": {
         "name": "camino.ProcStreamlines",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#procstreamlines",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -4699,7 +4699,7 @@
       ],
       "title": {
         "name": "camino.QBallMX",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/odf.html#qballmx",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.odf.html",
         "code": [
           {
             "language": "Nipype",
@@ -4908,7 +4908,7 @@
       ],
       "title": {
         "name": "camino.SFLUTGen",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/calib.html#sflutgen",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.calib.html",
         "code": [
           {
             "language": "Nipype",
@@ -5162,7 +5162,7 @@
       ],
       "title": {
         "name": "camino.SFPICOCalibData",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/calib.html#sfpicocalibdata",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.calib.html",
         "code": [
           {
             "language": "Nipype",
@@ -5491,7 +5491,7 @@
       ],
       "title": {
         "name": "camino.SFPeaks",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/odf.html#sfpeaks",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.odf.html",
         "code": [
           {
             "language": "Nipype",
@@ -5805,7 +5805,7 @@
       ],
       "title": {
         "name": "camino.Shredder",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#shredder",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -5984,7 +5984,7 @@
       ],
       "title": {
         "name": "camino.Track",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#track",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -6388,7 +6388,7 @@
       ],
       "title": {
         "name": "camino.TrackBallStick",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackballstick",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -6792,7 +6792,7 @@
       ],
       "title": {
         "name": "camino.TrackBayesDirac",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackbayesdirac",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -7331,7 +7331,7 @@
       ],
       "title": {
         "name": "camino.TrackBedpostxDeter",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackbedpostxdeter",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -7765,7 +7765,7 @@
       ],
       "title": {
         "name": "camino.TrackBedpostxProba",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackbedpostxproba",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -8214,7 +8214,7 @@
       ],
       "title": {
         "name": "camino.TrackBootstrap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackbootstrap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -8693,7 +8693,7 @@
       ],
       "title": {
         "name": "camino.TrackDT",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackdt",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -9097,7 +9097,7 @@
       ],
       "title": {
         "name": "camino.TrackPICo",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/dti.html#trackpico",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -9531,7 +9531,7 @@
       ],
       "title": {
         "name": "camino.TractShredder",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#tractshredder",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",
@@ -9710,7 +9710,7 @@
       ],
       "title": {
         "name": "camino.VtkStreamlines",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.camino/convert.html#vtkstreamlines",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.camino.convert.html",
         "code": [
           {
             "language": "Nipype",

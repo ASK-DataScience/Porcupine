@@ -3,25 +3,25 @@
     {
       "category": [
         "Nipype",
-        "algorithms",
-        "icc"
+        "dcm2nii",
+        "dcm2niix"
       ],
       "title": {
-        "name": "icc.ICC",
-        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.icc.html",
+        "name": "Dcm2niix",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.dcm2nii.html",
         "code": [
           {
             "language": "Nipype",
-            "comment": "Calculates Interclass Correlation Coefficient (3,1) as defined in",
+            "comment": "Wraps command **dcm2niix**",
             "argument": {
-              "name": "icc.ICC()",
-              "import": "import nipype.algorithms.icc as icc"
+              "name": "Dcm2niix()",
+              "import": "import nipype.interfaces.dcm2nii as dcm2nii"
             }
           },
           {
             "language": "Docker",
             "argument": {
-              "name": "Nipype, algorithms, icc"
+              "name": "Nipype, dcm2nii"
             }
           }
         ]
@@ -32,12 +32,12 @@
           "output": false,
           "visible": true,
           "editable": true,
-          "name": "subjects_sessions",
+          "name": "source_dir",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "subjects_sessions"
+                "name": "source_dir"
               }
             }
           ]
@@ -47,27 +47,12 @@
           "output": false,
           "visible": true,
           "editable": true,
-          "name": "mask",
+          "name": "source_names",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "mask"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": false,
-          "editable": true,
-          "name": "ignore_exception",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "ignore_exception"
+                "name": "source_names"
               }
             }
           ]
@@ -77,12 +62,12 @@
           "output": true,
           "visible": true,
           "editable": false,
-          "name": "icc_map",
+          "name": "bids",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "icc_map"
+                "name": "bids"
               }
             }
           ]
@@ -92,12 +77,12 @@
           "output": true,
           "visible": true,
           "editable": false,
-          "name": "session_var_map",
+          "name": "bvals",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "session_var_map"
+                "name": "bvals"
               }
             }
           ]
@@ -107,17 +92,32 @@
           "output": true,
           "visible": true,
           "editable": false,
-          "name": "subject_var_map",
+          "name": "bvecs",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "subject_var_map"
+                "name": "bvecs"
+              }
+            }
+          ]
+        },
+        {
+          "input": false,
+          "output": true,
+          "visible": true,
+          "editable": false,
+          "name": "converted_files",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "converted_files"
               }
             }
           ]
         }
-      ]
-    }
+      ],
+    },
   ]
 }

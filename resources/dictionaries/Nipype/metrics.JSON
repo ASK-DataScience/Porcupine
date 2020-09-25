@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "metrics.Distance",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.metrics.html#distance",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.metrics.html",
         "code": [
           {
             "language": "Nipype",
@@ -172,7 +172,7 @@
       ],
       "title": {
         "name": "metrics.ErrorMap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.metrics.html#errormap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.metrics.html",
         "code": [
           {
             "language": "Nipype",
@@ -321,7 +321,7 @@
       ],
       "title": {
         "name": "metrics.FuzzyOverlap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.metrics.html#fuzzyoverlap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.metrics.html",
         "code": [
           {
             "language": "Nipype",
@@ -500,7 +500,7 @@
       ],
       "title": {
         "name": "metrics.Overlap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.metrics.html#overlap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.metrics.html",
         "code": [
           {
             "language": "Nipype",
@@ -769,7 +769,7 @@
       ],
       "title": {
         "name": "metrics.Similarity",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.metrics.html#similarity",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.metrics.html",
         "code": [
           {
             "language": "Nipype",

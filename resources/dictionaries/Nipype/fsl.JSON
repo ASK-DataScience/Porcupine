@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "fsl.AR1Image",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#ar1image",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -217,7 +217,7 @@
       ],
       "title": {
         "name": "fsl.AccuracyTester",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/fix.html#accuracytester",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.fix.html",
         "code": [
           {
             "language": "Nipype",
@@ -366,7 +366,7 @@
       ],
       "title": {
         "name": "fsl.ApplyMask",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#applymask",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -575,7 +575,7 @@
       ],
       "title": {
         "name": "fsl.ApplyTOPUP",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#applytopup",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -829,7 +829,7 @@
       ],
       "title": {
         "name": "fsl.ApplyWarp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#applywarp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1143,7 +1143,7 @@
       ],
       "title": {
         "name": "fsl.ApplyXFM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#applyxfm",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1997,7 +1997,7 @@
       ],
       "title": {
         "name": "fsl.AvScale",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#avscale",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -2281,7 +2281,7 @@
       ],
       "title": {
         "name": "fsl.B0Calc",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/possum.html#b0calc",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.possum.html",
         "code": [
           {
             "language": "Nipype",
@@ -2610,7 +2610,7 @@
       ],
       "title": {
         "name": "fsl.BEDPOSTX5",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#bedpostx5",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -3269,7 +3269,7 @@
       ],
       "title": {
         "name": "fsl.BEDPOSTX5",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#bedpostx5",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -3928,7 +3928,7 @@
       ],
       "title": {
         "name": "fsl.BET",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#bet",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -4482,7 +4482,7 @@
       ],
       "title": {
         "name": "fsl.BinaryMaths",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#binarymaths",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -4721,7 +4721,7 @@
       ],
       "title": {
         "name": "fsl.ChangeDataType",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#changedatatype",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -4915,7 +4915,7 @@
       ],
       "title": {
         "name": "fsl.Classifier",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/fix.html#classifier",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.fix.html",
         "code": [
           {
             "language": "Nipype",
@@ -5079,7 +5079,7 @@
       ],
       "title": {
         "name": "fsl.Cleaner",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/fix.html#cleaner",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.fix.html",
         "code": [
           {
             "language": "Nipype",
@@ -5288,7 +5288,7 @@
       ],
       "title": {
         "name": "fsl.Cluster",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#cluster",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -5887,7 +5887,7 @@
       ],
       "title": {
         "name": "fsl.Complex",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#complex",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -6351,7 +6351,7 @@
       ],
       "title": {
         "name": "fsl.ContrastMgr",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#contrastmgr",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -6680,7 +6680,7 @@
       ],
       "title": {
         "name": "fsl.ConvertWarp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#convertwarp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -7039,7 +7039,7 @@
       ],
       "title": {
         "name": "fsl.ConvertXFM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#convertxfm",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -7248,7 +7248,7 @@
       ],
       "title": {
         "name": "fsl.CopyGeom",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#copygeom",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -7412,7 +7412,7 @@
       ],
       "title": {
         "name": "fsl.DTIFit",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#dtifit",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -7921,7 +7921,7 @@
       ],
       "title": {
         "name": "fsl.DilateImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#dilateimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -8175,7 +8175,7 @@
       ],
       "title": {
         "name": "fsl.DistanceMap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#distancemap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -8384,7 +8384,7 @@
       ],
       "title": {
         "name": "fsl.EPIDeWarp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#epidewarp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -8743,7 +8743,7 @@
       ],
       "title": {
         "name": "fsl.Eddy",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#eddy",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -9357,7 +9357,7 @@
       ],
       "title": {
         "name": "fsl.EddyCorrect",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#eddycorrect",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -9521,7 +9521,7 @@
       ],
       "title": {
         "name": "fsl.EpiReg",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#epireg",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -10015,7 +10015,7 @@
       ],
       "title": {
         "name": "fsl.ErodeImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#erodeimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -10269,7 +10269,7 @@
       ],
       "title": {
         "name": "fsl.ExtractROI",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#extractroi",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -10553,7 +10553,7 @@
       ],
       "title": {
         "name": "fsl.FAST",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#fast",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -11107,7 +11107,7 @@
       ],
       "title": {
         "name": "fsl.FEAT",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#feat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -11241,7 +11241,7 @@
       ],
       "title": {
         "name": "fsl.FEATModel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#featmodel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -11450,7 +11450,7 @@
       ],
       "title": {
         "name": "fsl.FEATRegister",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#featregister",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -11554,7 +11554,7 @@
       ],
       "title": {
         "name": "fsl.FILMGLS",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#filmgls",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -12138,7 +12138,7 @@
       ],
       "title": {
         "name": "fsl.FIRST",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#first",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -12437,7 +12437,7 @@
       ],
       "title": {
         "name": "fsl.FLAMEO",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#flameo",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -12991,7 +12991,7 @@
       ],
       "title": {
         "name": "fsl.FLIRT",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#flirt",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -13845,7 +13845,7 @@
       ],
       "title": {
         "name": "fsl.FNIRT",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#fnirt",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -14669,7 +14669,7 @@
       ],
       "title": {
         "name": "fsl.FUGUE",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#fugue",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -15313,7 +15313,7 @@
       ],
       "title": {
         "name": "fsl.FeatureExtractor",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/fix.html#featureextractor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.fix.html",
         "code": [
           {
             "language": "Nipype",
@@ -15432,7 +15432,7 @@
       ],
       "title": {
         "name": "fsl.FilterRegressor",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#filterregressor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -15671,7 +15671,7 @@
       ],
       "title": {
         "name": "fsl.FindTheBiggest",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#findthebiggest",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -15820,7 +15820,7 @@
       ],
       "title": {
         "name": "fsl.GLM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#glm",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -16419,7 +16419,7 @@
       ],
       "title": {
         "name": "fsl.ICA_AROMA",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/aroma.html#ica_aroma",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.aroma.html",
         "code": [
           {
             "language": "Nipype",
@@ -16718,7 +16718,7 @@
       ],
       "title": {
         "name": "fsl.ImageMaths",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#imagemaths",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -16927,7 +16927,7 @@
       ],
       "title": {
         "name": "fsl.ImageMeants",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#imagemeants",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -17196,7 +17196,7 @@
       ],
       "title": {
         "name": "fsl.ImageStats",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#imagestats",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -17375,7 +17375,7 @@
       ],
       "title": {
         "name": "fsl.InvWarp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#invwarp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -17644,7 +17644,7 @@
       ],
       "title": {
         "name": "fsl.IsotropicSmooth",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#isotropicsmooth",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -17868,7 +17868,7 @@
       ],
       "title": {
         "name": "fsl.L2Model",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#l2model",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -17972,7 +17972,7 @@
       ],
       "title": {
         "name": "fsl.Level1Design",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#level1design",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -18136,7 +18136,7 @@
       ],
       "title": {
         "name": "fsl.MCFLIRT",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#mcflirt",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -18645,7 +18645,7 @@
       ],
       "title": {
         "name": "fsl.MELODIC",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#melodic",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -19499,7 +19499,7 @@
       ],
       "title": {
         "name": "fsl.MakeDyadicVectors",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#makedyadicvectors",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -19708,7 +19708,7 @@
       ],
       "title": {
         "name": "fsl.MaxnImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#maxnimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -19917,7 +19917,7 @@
       ],
       "title": {
         "name": "fsl.MeanImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#meanimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -20126,7 +20126,7 @@
       ],
       "title": {
         "name": "fsl.MedianImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#medianimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -20335,7 +20335,7 @@
       ],
       "title": {
         "name": "fsl.Merge",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#merge",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -20514,7 +20514,7 @@
       ],
       "title": {
         "name": "fsl.MinImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#minimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -20723,7 +20723,7 @@
       ],
       "title": {
         "name": "fsl.MotionOutliers",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#motionoutliers",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -21007,7 +21007,7 @@
       ],
       "title": {
         "name": "fsl.MultiImageMaths",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#multiimagemaths",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -21231,7 +21231,7 @@
       ],
       "title": {
         "name": "fsl.MultipleRegressDesign",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#multipleregressdesign",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -21380,7 +21380,7 @@
       ],
       "title": {
         "name": "fsl.Overlay",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#overlay",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -21694,7 +21694,7 @@
       ],
       "title": {
         "name": "fsl.PRELUDE",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#prelude",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -22053,7 +22053,7 @@
       ],
       "title": {
         "name": "fsl.PercentileImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#percentileimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -22277,7 +22277,7 @@
       ],
       "title": {
         "name": "fsl.PlotMotionParams",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#plotmotionparams",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -22471,7 +22471,7 @@
       ],
       "title": {
         "name": "fsl.PlotTimeSeries",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#plottimeseries",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -22815,7 +22815,7 @@
       ],
       "title": {
         "name": "fsl.PowerSpectrum",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#powerspectrum",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -22964,7 +22964,7 @@
       ],
       "title": {
         "name": "fsl.PrepareFieldmap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#preparefieldmap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -23173,7 +23173,7 @@
       ],
       "title": {
         "name": "fsl.ProbTrackX",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#probtrackx",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -23892,7 +23892,7 @@
       ],
       "title": {
         "name": "fsl.ProbTrackX2",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#probtrackx2",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -24896,7 +24896,7 @@
       ],
       "title": {
         "name": "fsl.ProjThresh",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#projthresh",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -25045,7 +25045,7 @@
       ],
       "title": {
         "name": "fsl.Randomise",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#randomise",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -25644,7 +25644,7 @@
       ],
       "title": {
         "name": "fsl.Reorient2Std",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#reorient2std",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -25793,7 +25793,7 @@
       ],
       "title": {
         "name": "fsl.RobustFOV",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#robustfov",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -25987,7 +25987,7 @@
       ],
       "title": {
         "name": "fsl.SMM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#smm",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -26181,7 +26181,7 @@
       ],
       "title": {
         "name": "fsl.SUSAN",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#susan",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -26405,7 +26405,7 @@
       ],
       "title": {
         "name": "fsl.SigLoss",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#sigloss",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -26599,7 +26599,7 @@
       ],
       "title": {
         "name": "fsl.SliceTimer",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/preprocess.html#slicetimer",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -26853,7 +26853,7 @@
       ],
       "title": {
         "name": "fsl.Slicer",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#slicer",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -27227,7 +27227,7 @@
       ],
       "title": {
         "name": "fsl.Smooth",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#smooth",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -27406,7 +27406,7 @@
       ],
       "title": {
         "name": "fsl.SmoothEstimate",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/model.html#smoothestimate",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -27615,7 +27615,7 @@
       ],
       "title": {
         "name": "fsl.SpatialFilter",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#spatialfilter",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -27869,7 +27869,7 @@
       ],
       "title": {
         "name": "fsl.Split",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#split",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -28033,7 +28033,7 @@
       ],
       "title": {
         "name": "fsl.SwapDimensions",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#swapdimensions",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -28197,7 +28197,7 @@
       ],
       "title": {
         "name": "fsl.TOPUP",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/epi.html#topup",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.epi.html",
         "code": [
           {
             "language": "Nipype",
@@ -28826,7 +28826,7 @@
       ],
       "title": {
         "name": "fsl.TemporalFilter",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#temporalfilter",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -29050,7 +29050,7 @@
       ],
       "title": {
         "name": "fsl.Threshold",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#threshold",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -29304,7 +29304,7 @@
       ],
       "title": {
         "name": "fsl.TractSkeleton",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#tractskeleton",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -29603,7 +29603,7 @@
       ],
       "title": {
         "name": "fsl.Training",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/fix.html#training",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.fix.html",
         "code": [
           {
             "language": "Nipype",
@@ -29752,7 +29752,7 @@
       ],
       "title": {
         "name": "fsl.TrainingSetCreator",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/fix.html#trainingsetcreator",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.fix.html",
         "code": [
           {
             "language": "Nipype",
@@ -29826,7 +29826,7 @@
       ],
       "title": {
         "name": "fsl.UnaryMaths",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/maths.html#unarymaths",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.maths.html",
         "code": [
           {
             "language": "Nipype",
@@ -30035,7 +30035,7 @@
       ],
       "title": {
         "name": "fsl.VecReg",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#vecreg",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -30304,7 +30304,7 @@
       ],
       "title": {
         "name": "fsl.WarpPoints",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#warppoints",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -30528,7 +30528,7 @@
       ],
       "title": {
         "name": "fsl.WarpPointsToStd",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#warppointstostd",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -30767,7 +30767,7 @@
       ],
       "title": {
         "name": "fsl.WarpUtils",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/utils.html#warputils",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -31036,7 +31036,7 @@
       ],
       "title": {
         "name": "fsl.XFibres5",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#xfibres5",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",
@@ -31620,7 +31620,7 @@
       ],
       "title": {
         "name": "fsl.XFibres5",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.fsl/dti.html#xfibres5",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.dti.html",
         "code": [
           {
             "language": "Nipype",

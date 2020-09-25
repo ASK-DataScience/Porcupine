@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "mne.WatershedBEM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.mne/base.html#watershedbem",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.mne.base.html",
         "code": [
           {
             "language": "Nipype",

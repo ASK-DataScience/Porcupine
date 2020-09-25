@@ -1,70 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RCC>
-   <qresource prefix="/examples">
-      <file alias="example.pork">examples/example.pork</file>
-   </qresource>
-   <qresource prefix="/images">
-      <file alias="repeating-brains.png">images/repeating-brains.png</file>
-      <file alias="eye.png">images/eye.png</file>
-      <file alias="eye-hidden.png">images/eye-hidden.png</file>
-      <file alias="eye-hover.png">images/eye-hover.png</file>
-      <file alias="eye-hidden-hover.png">images/eye-hidden-hover.png</file>
-      <file alias="iterate.png">images/iterate.png</file>
-      <file alias="iterate-off.png">images/iterate-off.png</file>
-      <file alias="iterate-hover.png">images/iterate-hover.png</file>
-      <file alias="iterate-off-hover.png">images/iterate-off-hover.png</file>
-      <file alias="remove.png">images/remove.png</file>
-      <file alias="remove-hover.png">images/remove-hover.png</file>
-      <file alias="expand.png">images/expand.png</file>
-      <file alias="expand-hover.png">images/expand-hover.png</file>
-      <file alias="shrink.png">images/shrink.png</file>
-      <file alias="shrink-hover.png">images/shrink-hover.png</file>
-      <file alias="globe.png">images/globe.png</file>
-      <file alias="globe-hover.png">images/globe-hover.png</file>
-      <file alias="porcupine-sad.png">images/porcupine-sad.png</file>
-      <file alias="porcupine-walking.png">images/porcupine-walking.png</file>
-   </qresource>
-   <qresource prefix="/qss">
-      <file alias="visibilityButton.qss">qss/visibilityButton.qss</file>
-      <file alias="iteratorButton.qss">qss/iteratorButton.qss</file>
-      <file alias="removeButton.qss">qss/removeButton.qss</file>
-      <file alias="expandButton.qss">qss/expandButton.qss</file>
-      <file alias="codeEditor.qss">qss/codeEditor.qss</file>
-      <file alias="translucentLabel.qss">qss/translucentLabel.qss</file>
-      <file alias="nodeItem.qss">qss/nodeItem.qss</file>
-      <file alias="webButton.qss">qss/webButton.qss</file>
-   </qresource>
-   <qresource prefix="dictionaries/Nipype">
-      <file alias="dict_000.JSON">../resources/dictionaries/Nipype/afni.JSON</file>
-      <file alias="dict_001.JSON">../resources/dictionaries/Nipype/ants.JSON</file>
-      <file alias="dict_002.JSON">../resources/dictionaries/Nipype/camino.JSON</file>
-      <file alias="dict_003.JSON">../resources/dictionaries/Nipype/confounds.JSON</file>
-      <file alias="dict_004.JSON">../resources/dictionaries/Nipype/freesurfer.JSON</file>
-      <file alias="dict_005.JSON">../resources/dictionaries/Nipype/fsl.JSON</file>
-      <file alias="dict_006.JSON">../resources/dictionaries/Nipype/icc.JSON</file>
-      <file alias="dict_007.JSON">../resources/dictionaries/Nipype/io.JSON</file>
-      <file alias="dict_008.JSON">../resources/dictionaries/Nipype/mesh.JSON</file>
-      <file alias="dict_009.JSON">../resources/dictionaries/Nipype/metrics.JSON</file>
-      <file alias="dict_010.JSON">../resources/dictionaries/Nipype/misc.JSON</file>
-      <file alias="dict_011.JSON">../resources/dictionaries/Nipype/mne.JSON</file>
-      <file alias="dict_012.JSON">../resources/dictionaries/Nipype/modelgen.JSON</file>
-      <file alias="dict_013.JSON">../resources/dictionaries/Nipype/mrtrix.JSON</file>
-      <file alias="dict_014.JSON">../resources/dictionaries/Nipype/rapidart.JSON</file>
-      <file alias="dict_015.JSON">../resources/dictionaries/Nipype/slicer.JSON</file>
-      <file alias="dict_016.JSON">../resources/dictionaries/Nipype/spm.JSON</file>
-      <file alias="dict_017.JSON">../resources/dictionaries/Nipype/utility.JSON</file>
-   </qresource>
-   <qresource prefix="dictionaries/TvM">
-      <file alias="dict_000.JSON">../resources/dictionaries/TvM/tvm.JSON</file>
-   </qresource>
-   <qresource prefix="dictionaries/Neurodocker">
-      <file alias="Nipype.txt">../resources/dictionaries/Neurodocker/Nipype.txt</file>
-      <file alias="afni.txt">../resources/dictionaries/Neurodocker/afni.txt</file>
-      <file alias="ants.txt">../resources/dictionaries/Neurodocker/ants.txt</file>
-      <file alias="freesurfer.txt">../resources/dictionaries/Neurodocker/freesurfer.txt</file>
-      <file alias="fsl.txt">../resources/dictionaries/Neurodocker/fsl.txt</file>
-      <file alias="mrtrix.txt">../resources/dictionaries/Neurodocker/mrtrix.txt</file>
-      <file alias="postamble.txt">../resources/dictionaries/Neurodocker/postamble.txt</file>
-      <file alias="preamble.txt">../resources/dictionaries/Neurodocker/preamble.txt</file>
-   </qresource>
+    <qresource prefix="/examples">
+        <file alias="example.pork">examples/example.pork</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="repeating-brains.png">images/repeating-brains.png</file>
+        <file alias="eye.png">images/eye.png</file>
+        <file alias="eye-hidden.png">images/eye-hidden.png</file>
+        <file alias="eye-hover.png">images/eye-hover.png</file>
+        <file alias="eye-hidden-hover.png">images/eye-hidden-hover.png</file>
+        <file alias="iterate.png">images/iterate.png</file>
+        <file alias="iterate-off.png">images/iterate-off.png</file>
+        <file alias="iterate-hover.png">images/iterate-hover.png</file>
+        <file alias="iterate-off-hover.png">images/iterate-off-hover.png</file>
+        <file alias="remove.png">images/remove.png</file>
+        <file alias="remove-hover.png">images/remove-hover.png</file>
+        <file alias="expand.png">images/expand.png</file>
+        <file alias="expand-hover.png">images/expand-hover.png</file>
+        <file alias="shrink.png">images/shrink.png</file>
+        <file alias="shrink-hover.png">images/shrink-hover.png</file>
+        <file alias="globe.png">images/globe.png</file>
+        <file alias="globe-hover.png">images/globe-hover.png</file>
+        <file alias="porcupine-sad.png">images/porcupine-sad.png</file>
+        <file alias="porcupine-walking.png">images/porcupine-walking.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="visibilityButton.qss">qss/visibilityButton.qss</file>
+        <file alias="iteratorButton.qss">qss/iteratorButton.qss</file>
+        <file alias="removeButton.qss">qss/removeButton.qss</file>
+        <file alias="expandButton.qss">qss/expandButton.qss</file>
+        <file alias="codeEditor.qss">qss/codeEditor.qss</file>
+        <file alias="translucentLabel.qss">qss/translucentLabel.qss</file>
+        <file alias="nodeItem.qss">qss/nodeItem.qss</file>
+        <file alias="webButton.qss">qss/webButton.qss</file>
+    </qresource>
+    <qresource prefix="/dictionaries/Nipype">
+        <file alias="dict_000.JSON">dictionaries/Nipype/afni.JSON</file>
+        <file alias="dict_001.JSON">dictionaries/Nipype/ants.JSON</file>
+        <file alias="dict_002.JSON">dictionaries/Nipype/camino.JSON</file>
+        <file alias="dict_003.JSON">dictionaries/Nipype/confounds.JSON</file>
+        <file alias="dict_004.JSON">dictionaries/Nipype/freesurfer.JSON</file>
+        <file alias="dict_005.JSON">dictionaries/Nipype/fsl.JSON</file>
+        <file alias="dict_006.JSON">dictionaries/Nipype/icc.JSON</file>
+        <file alias="dict_007.JSON">dictionaries/Nipype/io.JSON</file>
+        <file alias="dict_008.JSON">dictionaries/Nipype/mesh.JSON</file>
+        <file alias="dict_009.JSON">dictionaries/Nipype/metrics.JSON</file>
+        <file alias="dict_010.JSON">dictionaries/Nipype/misc.JSON</file>
+        <file alias="dict_011.JSON">dictionaries/Nipype/mne.JSON</file>
+        <file alias="dict_012.JSON">dictionaries/Nipype/modelgen.JSON</file>
+        <file alias="dict_013.JSON">dictionaries/Nipype/mrtrix.JSON</file>
+        <file alias="dict_014.JSON">dictionaries/Nipype/rapidart.JSON</file>
+        <file alias="dict_015.JSON">dictionaries/Nipype/slicer.JSON</file>
+        <file alias="dict_016.JSON">dictionaries/Nipype/spm.JSON</file>
+        <file alias="dict_017.JSON">dictionaries/Nipype/utility.JSON</file>
+        <file alias="dict_019.JSON">dictionaries/Nipype/dcm2niix.JSON</file>
+        <file alias="dict_018.JSON">dictionaries/Nipype/dcm2nii.JSON</file>
+    </qresource>
+    <qresource prefix="/dictionaries/TvM">
+        <file alias="dict_000.JSON">dictionaries/TvM/tvm.JSON</file>
+    </qresource>
+    <qresource prefix="/dictionaries/Neurodocker">
+        <file alias="Nipype.txt">dictionaries/Neurodocker/Nipype.txt</file>
+        <file alias="afni.txt">dictionaries/Neurodocker/afni.txt</file>
+        <file alias="ants.txt">dictionaries/Neurodocker/ants.txt</file>
+        <file alias="freesurfer.txt">dictionaries/Neurodocker/freesurfer.txt</file>
+        <file alias="fsl.txt">dictionaries/Neurodocker/fsl.txt</file>
+        <file alias="mrtrix.txt">dictionaries/Neurodocker/mrtrix.txt</file>
+        <file alias="postamble.txt">dictionaries/Neurodocker/postamble.txt</file>
+        <file alias="preamble.txt">dictionaries/Neurodocker/preamble.txt</file>
+    </qresource>
+    <qresource prefix="/"/>
 </RCC>

@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "utility.AssertEqual",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#assertequal",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.base.html",
         "code": [
           {
             "language": "Nipype",
@@ -82,7 +82,7 @@
       ],
       "title": {
         "name": "utility.CSVReader",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/csv.html#csvreader",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.csv.html",
         "code": [
           {
             "language": "Nipype",
@@ -141,7 +141,7 @@
       ],
       "title": {
         "name": "utility.Function",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/wrappers.html#function",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.wrappers.html",
         "code": [
           {
             "language": "Nipype",
@@ -200,7 +200,7 @@
       ],
       "title": {
         "name": "utility.IdentityInterface",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#identityinterface",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.base.html",
         "code": [
           {
             "language": "Nipype",
@@ -228,7 +228,7 @@
       ],
       "title": {
         "name": "utility.Merge",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#merge",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.base.html",
         "code": [
           {
             "language": "Nipype",
@@ -332,7 +332,7 @@
       ],
       "title": {
         "name": "utility.Rename",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#rename",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.base.html",
         "code": [
           {
             "language": "Nipype",
@@ -451,7 +451,7 @@
       ],
       "title": {
         "name": "utility.Select",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#select",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.base.html",
         "code": [
           {
             "language": "Nipype",
@@ -540,7 +540,7 @@
       ],
       "title": {
         "name": "utility.Split",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.utility/base.html#split",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.utility.base.html",
         "code": [
           {
             "language": "Nipype",

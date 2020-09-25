@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "mesh.ComputeMeshWarp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.mesh.html#computemeshwarp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.mesh.html",
         "code": [
           {
             "language": "Nipype",
@@ -187,7 +187,7 @@
       ],
       "title": {
         "name": "mesh.MeshWarpMaths",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.mesh.html#meshwarpmaths",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.mesh.html",
         "code": [
           {
             "language": "Nipype",
@@ -351,7 +351,7 @@
       ],
       "title": {
         "name": "mesh.P2PDistance",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.mesh.html#p2pdistance",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.mesh.html",
         "code": [
           {
             "language": "Nipype",
@@ -530,7 +530,7 @@
       ],
       "title": {
         "name": "mesh.TVTKBaseInterface",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.mesh.html#tvtkbaseinterface",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.mesh.html",
         "code": [
           {
             "language": "Nipype",
@@ -574,7 +574,7 @@
       ],
       "title": {
         "name": "mesh.WarpPoints",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.mesh.html#warppoints",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.mesh.html",
         "code": [
           {
             "language": "Nipype",

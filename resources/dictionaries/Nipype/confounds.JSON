@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "confounds.ACompCor",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#acompcor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",
@@ -292,7 +292,7 @@
       ],
       "title": {
         "name": "confounds.CompCor",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#compcor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",
@@ -576,7 +576,7 @@
       ],
       "title": {
         "name": "confounds.ComputeDVARS",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#computedvars",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",
@@ -965,7 +965,7 @@
       ],
       "title": {
         "name": "confounds.FramewiseDisplacement",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#framewisedisplacement",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",
@@ -1204,7 +1204,7 @@
       ],
       "title": {
         "name": "confounds.NonSteadyStateDetector",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#nonsteadystatedetector",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",
@@ -1278,7 +1278,7 @@
       ],
       "title": {
         "name": "confounds.TCompCor",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#tcompcor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",
@@ -1592,7 +1592,7 @@
       ],
       "title": {
         "name": "confounds.TSNR",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.confounds.html#tsnr",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.confounds.html",
         "code": [
           {
             "language": "Nipype",

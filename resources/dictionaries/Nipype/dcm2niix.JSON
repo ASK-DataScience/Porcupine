@@ -3,25 +3,25 @@
     {
       "category": [
         "Nipype",
-        "algorithms",
-        "rapidart"
+        "dcm2nii",
+        "dcm2niix"
       ],
       "title": {
-        "name": "rapidart.ArtifactDetect",
-        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.rapidart.html",
+        "name": "Dcm2niix",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.dcm2nii.html",
         "code": [
           {
             "language": "Nipype",
-            "comment": "Detects outliers in a functional imaging series",
+            "comment": "Wraps command **dcm2niix**",
             "argument": {
-              "name": "rapidart.ArtifactDetect()",
-              "import": "import nipype.algorithms.rapidart as rapidart"
+              "name": "Dcm2niix()",
+              "import": "from nipype.interfaces.dcm2nii import Dcm2niix"
             }
           },
           {
             "language": "Docker",
             "argument": {
-              "name": "Nipype, algorithms, rapidart"
+              "name": "Nipype, dcm2nii"
             }
           }
         ]
@@ -32,12 +32,12 @@
           "output": false,
           "visible": true,
           "editable": true,
-          "name": "realigned_files",
+          "name": "source_dir",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "realigned_files"
+                "name": "source_dir"
               }
             }
           ]
@@ -47,102 +47,12 @@
           "output": false,
           "visible": true,
           "editable": true,
-          "name": "realignment_parameters",
+          "name": "source_names",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "realignment_parameters"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "parameter_source",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "parameter_source"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "norm_threshold",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "norm_threshold"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "rotation_threshold",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "rotation_threshold"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "translation_threshold",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "translation_threshold"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "zintensity_threshold",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "zintensity_threshold"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "mask_type",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "mask_type"
+                "name": "source_names"
               }
             }
           ]
@@ -152,12 +62,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "use_differences",
+          "name": "anon_bids",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "use_differences"
+                "name": "anon_bids"
               }
             }
           ]
@@ -167,12 +77,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "use_norm",
+          "name": "args",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "use_norm"
+                "name": "args"
               }
             }
           ]
@@ -182,12 +92,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "mask_file",
+          "name": "bids_format",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "mask_file"
+                "name": "bids_format"
               }
             }
           ]
@@ -197,12 +107,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "mask_threshold",
+          "name": "comment",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "mask_threshold"
+                "name": "comment"
               }
             }
           ]
@@ -212,12 +122,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "intersect_mask",
+          "name": "compress",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "intersect_mask"
+                "name": "compress"
               }
             }
           ]
@@ -227,12 +137,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "save_plot",
+          "name": "compression",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "save_plot"
+                "name": "compression"
               }
             }
           ]
@@ -242,12 +152,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "plot_type",
+          "name": "crop",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "plot_type"
+                "name": "crop"
               }
             }
           ]
@@ -257,12 +167,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "bound_by_brainmask",
+          "name": "environ",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "bound_by_brainmask"
+                "name": "environ"
               }
             }
           ]
@@ -272,12 +182,12 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "global_threshold",
+          "name": "has_private",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "global_threshold"
+                "name": "has_private"
               }
             }
           ]
@@ -287,12 +197,147 @@
           "output": false,
           "visible": false,
           "editable": true,
-          "name": "ignore_exception",
+          "name": "ignore_deriv",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "ignore_exception"
+                "name": "ignore_deriv"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "merge_imgs",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "merge_imgs"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "out_filename",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "out_filename"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "output_dir",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "output_dir"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "philips_float",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "philips_float"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "series_numbers",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "series_numbers"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "single_file",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "single_file"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "to_nrrd",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "to_nrrd"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "verbose",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "verbose"
+              }
+            }
+          ]
+        },
+        {
+          "input": true,
+          "output": false,
+          "visible": false,
+          "editable": true,
+          "name": "crop",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "crop"
               }
             }
           ]
@@ -302,12 +347,12 @@
           "output": true,
           "visible": true,
           "editable": false,
-          "name": "outlier_files",
+          "name": "converted_files",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "outlier_files"
+                "name": "converted_files"
               }
             }
           ]
@@ -315,193 +360,14 @@
         {
           "input": false,
           "output": true,
-          "visible": true,
-          "editable": false,
-          "name": "intensity_files",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "intensity_files"
-              }
-            }
-          ]
-        },
-        {
-          "input": false,
-          "output": true,
-          "visible": true,
-          "editable": false,
-          "name": "norm_files",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "norm_files"
-              }
-            }
-          ]
-        },
-        {
-          "input": false,
-          "output": true,
-          "visible": true,
-          "editable": false,
-          "name": "statistic_files",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "statistic_files"
-              }
-            }
-          ]
-        },
-        {
-          "input": false,
-          "output": true,
-          "visible": true,
-          "editable": false,
-          "name": "plot_files",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "plot_files"
-              }
-            }
-          ]
-        },
-        {
-          "input": false,
-          "output": true,
-          "visible": true,
-          "editable": false,
-          "name": "mask_files",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "mask_files"
-              }
-            }
-          ]
-        },
-        {
-          "input": false,
-          "output": true,
-          "visible": true,
-          "editable": false,
-          "name": "displacement_files",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "displacement_files"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": [
-        "Nipype",
-        "algorithms",
-        "rapidart"
-      ],
-      "title": {
-        "name": "rapidart.StimulusCorrelation",
-        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.rapidart.html",
-        "code": [
-          {
-            "language": "Nipype",
-            "comment": "Determines if stimuli are correlated with motion or intensity",
-            "argument": {
-              "name": "rapidart.StimulusCorrelation()",
-              "import": "import nipype.algorithms.rapidart as rapidart"
-            }
-          },
-          {
-            "language": "Docker",
-            "argument": {
-              "name": "Nipype, algorithms, rapidart"
-            }
-          }
-        ]
-      },
-      "ports": [
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "realignment_parameters",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "realignment_parameters"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "intensity_values",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "intensity_values"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "spm_mat_file",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "spm_mat_file"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
-          "visible": true,
-          "editable": true,
-          "name": "concatenated_design",
-          "code": [
-            {
-              "language": "Nipype",
-              "argument": {
-                "name": "concatenated_design"
-              }
-            }
-          ]
-        },
-        {
-          "input": true,
-          "output": false,
           "visible": false,
-          "editable": true,
-          "name": "ignore_exception",
+          "editable": false,
+          "name": "bids",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "ignore_exception"
+                "name": "bids"
               }
             }
           ]
@@ -509,14 +375,29 @@
         {
           "input": false,
           "output": true,
-          "visible": true,
+          "visible": false,
           "editable": false,
-          "name": "stimcorr_files",
+          "name": "bvals",
           "code": [
             {
               "language": "Nipype",
               "argument": {
-                "name": "stimcorr_files"
+                "name": "bvals"
+              }
+            }
+          ]
+        },
+        {
+          "input": false,
+          "output": true,
+          "visible": false,
+          "editable": false,
+          "name": "bvecs",
+          "code": [
+            {
+              "language": "Nipype",
+              "argument": {
+                "name": "bvecs"
               }
             }
           ]

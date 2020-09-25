@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "misc.AddCSVColumn",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#addcsvcolumn",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -112,7 +112,7 @@
       ],
       "title": {
         "name": "misc.AddCSVRow",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#addcsvrow",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -201,7 +201,7 @@
       ],
       "title": {
         "name": "misc.AddNoise",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#addnoise",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -335,7 +335,7 @@
       ],
       "title": {
         "name": "misc.CalculateNormalizedMoments",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#calculatenormalizedmoments",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -409,7 +409,7 @@
       ],
       "title": {
         "name": "misc.CreateNifti",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#createnifti",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -513,7 +513,7 @@
       ],
       "title": {
         "name": "misc.Distance",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#distance",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -677,7 +677,7 @@
       ],
       "title": {
         "name": "misc.FuzzyOverlap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#fuzzyoverlap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -856,7 +856,7 @@
       ],
       "title": {
         "name": "misc.Gunzip",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#gunzip",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -930,7 +930,7 @@
       ],
       "title": {
         "name": "misc.Matlab2CSV",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#matlab2csv",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1004,7 +1004,7 @@
       ],
       "title": {
         "name": "misc.MergeCSVFiles",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#mergecsvfiles",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1153,7 +1153,7 @@
       ],
       "title": {
         "name": "misc.MergeROIs",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#mergerois",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1242,7 +1242,7 @@
       ],
       "title": {
         "name": "misc.ModifyAffine",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#modifyaffine",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1331,7 +1331,7 @@
       ],
       "title": {
         "name": "misc.NormalizeProbabilityMapSet",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#normalizeprobabilitymapset",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1405,7 +1405,7 @@
       ],
       "title": {
         "name": "misc.Overlap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#overlap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1674,7 +1674,7 @@
       ],
       "title": {
         "name": "misc.PickAtlas",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#pickatlas",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1808,7 +1808,7 @@
       ],
       "title": {
         "name": "misc.SimpleThreshold",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#simplethreshold",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -1897,7 +1897,7 @@
       ],
       "title": {
         "name": "misc.SplitROIs",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#splitrois",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",
@@ -2016,7 +2016,7 @@
       ],
       "title": {
         "name": "misc.TSNR",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/nipype.algorithms.misc.html#tsnr",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.algorithms.misc.html",
         "code": [
           {
             "language": "Nipype",

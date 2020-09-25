@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "ants.ANTS",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/registration.html#ants",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -517,7 +517,7 @@
       ],
       "title": {
         "name": "ants.AffineInitializer",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/utils.html#affineinitializer",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -756,7 +756,7 @@
       ],
       "title": {
         "name": "ants.AntsJointFusion",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#antsjointfusion",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -1220,7 +1220,7 @@
       ],
       "title": {
         "name": "ants.ApplyTransforms",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/resampling.html#applytransforms",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -1534,7 +1534,7 @@
       ],
       "title": {
         "name": "ants.ApplyTransformsToPoints",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/resampling.html#applytransformstopoints",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -1728,7 +1728,7 @@
       ],
       "title": {
         "name": "ants.Atropos",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#atropos",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -2177,7 +2177,7 @@
       ],
       "title": {
         "name": "ants.AverageAffineTransform",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/utils.html#averageaffinetransform",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -2341,7 +2341,7 @@
       ],
       "title": {
         "name": "ants.AverageImages",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/utils.html#averageimages",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -2520,7 +2520,7 @@
       ],
       "title": {
         "name": "ants.BrainExtraction",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#brainextraction",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -3059,7 +3059,7 @@
       ],
       "title": {
         "name": "ants.ConvertScalarImageToRGB",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/visualization.html#convertscalarimagetorgb",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -3328,7 +3328,7 @@
       ],
       "title": {
         "name": "ants.CorticalThickness",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#corticalthickness",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -3927,7 +3927,7 @@
       ],
       "title": {
         "name": "ants.CreateJacobianDeterminantImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/utils.html#createjacobiandeterminantimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -4121,7 +4121,7 @@
       ],
       "title": {
         "name": "ants.CreateTiledMosaic",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/visualization.html#createtiledmosaic",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -4405,7 +4405,7 @@
       ],
       "title": {
         "name": "ants.DenoiseImage",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#denoiseimage",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -4659,7 +4659,7 @@
       ],
       "title": {
         "name": "ants.JointFusion",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#jointfusion",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -4988,7 +4988,7 @@
       ],
       "title": {
         "name": "ants.LaplacianThickness",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#laplacianthickness",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -5227,7 +5227,7 @@
       ],
       "title": {
         "name": "ants.MeasureImageSimilarity",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/registration.html#measureimagesimilarity",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -5496,7 +5496,7 @@
       ],
       "title": {
         "name": "ants.MultiplyImages",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/utils.html#multiplyimages",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -5675,7 +5675,7 @@
       ],
       "title": {
         "name": "ants.N4BiasFieldCorrection",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/segmentation.html#n4biasfieldcorrection",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -6004,7 +6004,7 @@
       ],
       "title": {
         "name": "ants.Registration",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/registration.html#registration",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -6993,7 +6993,7 @@
       ],
       "title": {
         "name": "ants.WarpImageMultiTransform",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/resampling.html#warpimagemultitransform",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",
@@ -7277,7 +7277,7 @@
       ],
       "title": {
         "name": "ants.WarpTimeSeriesImageMultiTransform",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.ants/resampling.html#warptimeseriesimagemultitransform",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.ants.html",
         "code": [
           {
             "language": "Nipype",

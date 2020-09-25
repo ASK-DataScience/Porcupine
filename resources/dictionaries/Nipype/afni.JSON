@@ -8,7 +8,7 @@
       ],
       "title": {
         "name": "afni.AFNItoNIFTI",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#afnitonifti",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -217,7 +217,7 @@
       ],
       "title": {
         "name": "afni.Allineate",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#allineate",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -966,7 +966,7 @@
       ],
       "title": {
         "name": "afni.AutoTcorrelate",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#autotcorrelate",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1190,7 +1190,7 @@
       ],
       "title": {
         "name": "afni.Autobox",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#autobox",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -1459,7 +1459,7 @@
       ],
       "title": {
         "name": "afni.Automask",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#automask",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -1683,7 +1683,7 @@
       ],
       "title": {
         "name": "afni.Axialize",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#axialize",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -1907,7 +1907,7 @@
       ],
       "title": {
         "name": "afni.Bandpass",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#bandpass",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -2266,7 +2266,7 @@
       ],
       "title": {
         "name": "afni.BlurInMask",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#blurinmask",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -2520,7 +2520,7 @@
       ],
       "title": {
         "name": "afni.BlurToFWHM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#blurtofwhm",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -2744,7 +2744,7 @@
       ],
       "title": {
         "name": "afni.BrickStat",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#brickstat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -2983,7 +2983,7 @@
       ],
       "title": {
         "name": "afni.Calc",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#calc",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -3237,7 +3237,7 @@
       ],
       "title": {
         "name": "afni.Cat",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#cat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -3536,7 +3536,7 @@
       ],
       "title": {
         "name": "afni.ClipLevel",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#cliplevel",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -3700,7 +3700,7 @@
       ],
       "title": {
         "name": "afni.Copy",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#copy",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -3849,7 +3849,7 @@
       ],
       "title": {
         "name": "afni.Deconvolve",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/model.html#deconvolve",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -4628,7 +4628,7 @@
       ],
       "title": {
         "name": "afni.DegreeCentrality",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#degreecentrality",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -4897,7 +4897,7 @@
       ],
       "title": {
         "name": "afni.Despike",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#despike",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -5046,7 +5046,7 @@
       ],
       "title": {
         "name": "afni.Detrend",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#detrend",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -5195,7 +5195,7 @@
       ],
       "title": {
         "name": "afni.ECM",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#ecm",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -5539,7 +5539,7 @@
       ],
       "title": {
         "name": "afni.Edge3",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#edge3",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -5778,7 +5778,7 @@
       ],
       "title": {
         "name": "afni.Eval",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#eval",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -6047,7 +6047,7 @@
       ],
       "title": {
         "name": "afni.FWHMx",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#fwhmx",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -6436,7 +6436,7 @@
       ],
       "title": {
         "name": "afni.Fim",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#fim",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -6630,7 +6630,7 @@
       ],
       "title": {
         "name": "afni.Fourier",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#fourier",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -6824,7 +6824,7 @@
       ],
       "title": {
         "name": "afni.GCOR",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#gcor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -6988,7 +6988,7 @@
       ],
       "title": {
         "name": "afni.Hist",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#hist",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -7242,7 +7242,7 @@
       ],
       "title": {
         "name": "afni.LFCD",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#lfcd",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -7466,7 +7466,7 @@
       ],
       "title": {
         "name": "afni.MaskTool",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#masktool",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -7750,7 +7750,7 @@
       ],
       "title": {
         "name": "afni.Maskave",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#maskave",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -7929,7 +7929,7 @@
       ],
       "title": {
         "name": "afni.Means",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#means",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -8213,7 +8213,7 @@
       ],
       "title": {
         "name": "afni.Merge",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#merge",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -8392,7 +8392,7 @@
       ],
       "title": {
         "name": "afni.Notes",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#notes",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -8616,7 +8616,7 @@
       ],
       "title": {
         "name": "afni.NwarpApply",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#nwarpapply",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -8870,7 +8870,7 @@
       ],
       "title": {
         "name": "afni.OutlierCount",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#outliercount",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -9169,7 +9169,7 @@
       ],
       "title": {
         "name": "afni.QualityIndex",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#qualityindex",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -9408,7 +9408,7 @@
       ],
       "title": {
         "name": "afni.Qwarp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#qwarp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -10262,7 +10262,7 @@
       ],
       "title": {
         "name": "afni.QwarpPlusMinus",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#qwarpplusminus",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -10516,7 +10516,7 @@
       ],
       "title": {
         "name": "afni.ROIStats",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#roistats",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -10680,7 +10680,7 @@
       ],
       "title": {
         "name": "afni.Refit",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#refit",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -10919,7 +10919,7 @@
       ],
       "title": {
         "name": "afni.Remlfit",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/model.html#remlfit",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.model.html",
         "code": [
           {
             "language": "Nipype",
@@ -11743,7 +11743,7 @@
       ],
       "title": {
         "name": "afni.Resample",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#resample",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -11952,7 +11952,7 @@
       ],
       "title": {
         "name": "afni.Retroicor",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#retroicor",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -12191,7 +12191,7 @@
       ],
       "title": {
         "name": "afni.SVMTest",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/svm.html#svmtest",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.svm.html",
         "code": [
           {
             "language": "Nipype",
@@ -12445,7 +12445,7 @@
       ],
       "title": {
         "name": "afni.SVMTrain",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/svm.html#svmtrain",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.svm.html",
         "code": [
           {
             "language": "Nipype",
@@ -12789,7 +12789,7 @@
       ],
       "title": {
         "name": "afni.Seg",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#seg",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -13058,7 +13058,7 @@
       ],
       "title": {
         "name": "afni.SkullStrip",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#skullstrip",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -13207,7 +13207,7 @@
       ],
       "title": {
         "name": "afni.TCat",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#tcat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -13371,7 +13371,7 @@
       ],
       "title": {
         "name": "afni.TCorr1D",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#tcorr1d",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -13595,7 +13595,7 @@
       ],
       "title": {
         "name": "afni.TCorrMap",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#tcorrmap",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -14284,7 +14284,7 @@
       ],
       "title": {
         "name": "afni.TCorrelate",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#tcorrelate",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -14478,7 +14478,7 @@
       ],
       "title": {
         "name": "afni.TShift",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#tshift",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -14747,7 +14747,7 @@
       ],
       "title": {
         "name": "afni.TStat",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#tstat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -14926,7 +14926,7 @@
       ],
       "title": {
         "name": "afni.To3D",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#to3d",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -15150,7 +15150,7 @@
       ],
       "title": {
         "name": "afni.Unifize",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#unifize",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -15404,7 +15404,7 @@
       ],
       "title": {
         "name": "afni.Volreg",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#volreg",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -15718,7 +15718,7 @@
       ],
       "title": {
         "name": "afni.Warp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/preprocess.html#warp",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.preprocess.html",
         "code": [
           {
             "language": "Nipype",
@@ -15987,7 +15987,7 @@
       ],
       "title": {
         "name": "afni.ZCutUp",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#zcutup",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -16151,7 +16151,7 @@
       ],
       "title": {
         "name": "afni.Zcat",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#zcat",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
@@ -16360,7 +16360,7 @@
       ],
       "title": {
         "name": "afni.Zeropad",
-        "web_url": "https://nipype.readthedocs.io/en/latest/interfaces/generated/interfaces.afni/utils.html#zeropad",
+        "web_url": "https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.afni.utils.html",
         "code": [
           {
             "language": "Nipype",
