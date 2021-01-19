@@ -151,7 +151,7 @@ MainWindow::MainWindow(
     connect(buttonGenerate, SIGNAL(released()), this, SLOT(nodeToCode()));
     connect(buttonSave, SIGNAL(released()), this, SLOT(saveCode()));
     connect(buttonRun, SIGNAL(released()), this, SLOT(runCode()));
-    connect(buttonSaveResults, SIGNAL(released()), this, SLOT(saveResults()));
+   connect(buttonSaveResults, SIGNAL(released()), this, SLOT(saveResults()));
     connect(buttonZoomIn, SIGNAL(released()), this, SLOT(zoomIn()));
     connect(buttonZoomOut, SIGNAL(released()), this, SLOT(zoomOut()));
     connect(m_nodeEditorWidget, SIGNAL(currentChanged(int)), this, SLOT(setFileAt(int)));
@@ -465,6 +465,45 @@ void MainWindow::exportFile(
     }
 }
 
+void MainWindow::prepareNewSubject(
+        )
+{
+    QDir dir("C:/Evolution");
+    if (!dir.exists())
+        dir.mkpath(".");
+
+    QDir dir2("C:/Evolution/results");
+    if (!dir2.exists())
+        dir2.mkpath(".");
+
+    QDir dir3("C:/Evolution/results/dcm2niix");
+    if (!dir3.exists())
+        dir3.mkpath(".");
+
+    // Create and Save DockerFile
+    const QString qPath("C:/Evolution/Dockerfile.txt");
+    QFile qFile(qPath);
+    if (qFile.open(QIODevice::WriteOnly)) {
+        QTextStream out(&qFile); out << "FROM nipype-dcm2niix-fsl6-v2\n";
+        QTextStream out2(&qFile); out2 << "ADD pythonCode.py /pythonCode.py\n";
+        QTextStream out3(&qFile); out3 << "CMD [\"python\", \"/pythonCode.py\"]";
+        qFile.close();
+    }
+}
+
+void MainWindow::saveResultsSubject(
+        )
+{
+
+}
+
+void MainWindow::cleanUpSubject(
+        )
+{
+    QDir dir("C:/Evolution");
+    dir.removeRecursively();
+}
+
 void MainWindow::newFile(
         )
 {
@@ -585,6 +624,11 @@ void MainWindow::setFileAt(
 
 void MainWindow::createMenus()
 {
+    m_projectMenu = menuBar()->addMenu(tr("Project"));
+    m_projectMenu->addAction(m_prepareNewSubjectAct);
+    m_projectMenu->addAction(m_saveResultsSubjectAct);
+    m_projectMenu->addAction(m_cleanUpSubjectAct);
+
     m_fileMenu = menuBar()->addMenu(tr("File"));
     m_fileMenu->addAction(m_newAct);
     m_fileMenu->addAction(m_openAct);
@@ -621,6 +665,21 @@ void MainWindow::createMenus()
 
 void MainWindow::createActions()
 {
+    m_prepareNewSubjectAct = new QAction(tr("New Subject"), this);
+    //m_prepareNewSubjectAct->setShortcuts(QKeySequence::NewSubject);
+    m_prepareNewSubjectAct->setStatusTip(tr("Prepare for New Subject"));
+    connect(m_prepareNewSubjectAct, SIGNAL(triggered()), this, SLOT(prepareNewSubject()));
+
+    m_saveResultsSubjectAct = new QAction(tr("Save Results"), this);
+    //m_saveResultsSubjectAct->setShortcuts(QKeySequence::SaveResultsSubject);
+    m_saveResultsSubjectAct->setStatusTip(tr("Save Results to Server"));
+    connect(m_saveResultsSubjectAct, SIGNAL(triggered()), this, SLOT(saveResultsSubject()));
+
+    m_cleanUpSubjectAct = new QAction(tr("Clean Up"), this);
+    //m_cleanUpSubjectAct->setShortcuts(QKeySequence::CleanUp);
+    m_cleanUpSubjectAct->setStatusTip(tr("Clean Up and Delete Local Folders"));
+    connect(m_cleanUpSubjectAct, SIGNAL(triggered()), this, SLOT(cleanUpSubject()));
+
     m_newAct = new QAction(tr("New"), this);
     m_newAct->setShortcuts(QKeySequence::New);
     m_newAct->setStatusTip(tr("Create a new file"));

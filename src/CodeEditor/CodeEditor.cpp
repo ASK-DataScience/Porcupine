@@ -26,6 +26,8 @@
 #include <QTextEdit>
 #include <QProcess>
 #include <QMessageBox>
+#include <QTextStream>
+#include <iostream>
 
 #include "CodeEditor.hpp"
 #include "CodeGenerator.hpp"
@@ -130,14 +132,32 @@ void CodeEditor::generateCode(
 void CodeEditor::saveCodeToFile(
         )
 {
+    QMap<QString, QString> loc_parameters;
+    QString workingDir;
+
+    loc_parameters = getParameters();
+    workingDir = loc_parameters["WorkingDirectory"];
+
     QTextEdit* currentTextEdit = (QTextEdit*) currentWidget();
     if(currentTextEdit)
     {
+/*
         QString fileName = QFileDialog::getSaveFileName();
         if (fileName.isEmpty())
         {
             return;
         }
+*/
+        //std::string  path = workingDir.toUtf8().constData();
+        QString workingDirMod = workingDir.remove(0,1);
+                workingDirMod = workingDirMod.remove(workingDirMod.size()-1,1);
+        QString path = workingDirMod;
+        //QString path = workingDir.remove(QRegExp("\\s+"));
+        //std::string path = workingDir.toStdString();
+        //QString path("C:/Users/akhaled/Documents/EVOLUTION_Lincoln");
+        //QString fileName(path+"/"+"pythonCode.py");
+        QString fileName = QDir(path).filePath("pythonCode.py");
+
         QFile file(fileName);
         if (file.open(QIODevice::WriteOnly))
         {
@@ -145,6 +165,14 @@ void CodeEditor::saveCodeToFile(
         }
         file.close();
     }
+    else {
+        QMessageBox msgWarning;
+                msgWarning.setText("No code to save!");
+                msgWarning.setIcon(QMessageBox::Warning);
+                msgWarning.setWindowTitle("Caution");
+                msgWarning.exec();
+    }
+
 }
 
 void CodeEditor::runCodeCMD()
@@ -158,28 +186,94 @@ void CodeEditor::runCodeCMD()
        //     command = command + " nipype-fmri-por2";
 
     //Docker Build
-    QString commandBuild = "docker build -t nipype-fmri-por-code-datasink-all-qt-3subjects-nopar-separateresults -f C:/Users/akhaled/Documents/Dockerfile.txt C:/Users/akhaled/Documents/";
+    // Get parameters
+    //ParameterEditor pe;
+    QMap<QString, QString> loc_parameters;
+    QString workingDir, subjectDir, outputDir, sub_idField;
+    QTextStream out(stdout);
+
+    loc_parameters = getParameters();
+    workingDir = loc_parameters["WorkingDirectory"];
+    subjectDir = loc_parameters["SubjectsDirectory"];
+    outputDir = loc_parameters["OutputDirectory"];
+    sub_idField = loc_parameters["sub_id"];
+
+    QString commandBuild = "docker build -t nipype-processing -f";
+            commandBuild = commandBuild + " " + workingDir.toUtf8() + "/Dockerfile.txt";
+            commandBuild = commandBuild + " " + workingDir.toUtf8() + "/";
+            commandBuild = commandBuild + " & pause";
+
+
+            /*QMessageBox msgWarning;
+                    msgWarning.setText(commandBuild);
+                    msgWarning.setIcon(QMessageBox::Warning);
+                    msgWarning.setWindowTitle("Caution");
+                    msgWarning.exec();*/
+
+    //qDebug()  << commandBuild;
+    //out << "print this" << Qt::endl;
+    //out << commandBuild << Qt::endl;
+
+
+    //int a = system(commandBuild.toUtf8());
     system(commandBuild.toUtf8());
+
+/*
+    std::cout << "Hello\n";
+    std::cout << "Press Enter to exit";
+    //int x;
+    //std::cin >> x;
+    //std::cout << "You entered : " << x << std::endl;
+    std::cin.ignore();
+    std::cin.get();
+    std::cout << std::endl;
+
+*/
+/*
+                    QProcess process;
+                        QString program = "cmd.exe";
+                        QStringList arguments = QStringList() << commandBuild;
+                        //process.setCreateProcessArgumentsModifier(
+                        //            [](QProcess::CreateProcessArguments *args) {
+                        //    args->flags |= CREATE_NEW_CONSOLE;
+                        //    args->startupInfo->dwFlags &=~ STARTF_USESTDHANDLES;
+                        //});
+                        process.start(program, arguments);
+                        if(process.waitForStarted()){
+                            qDebug() << "Starting";
+                        }
+                        process.waitForFinished(-1);
+                            qDebug() << "finish";
+
+
+                    QProcess process;
+                    process.start("cmd.exe");
+                    process.write ("del f:\\b.txt\n\r");
+                    process.write ("exit\n\r");
+                    process.waitForFinished();
+                    process.close();
+*/
+
 
     //Docker Run
     QString command = " docker run --rm -ti";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data,target=/Data";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/work/";
-            //command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/results,target=/tmp/";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data/sub-01/working,target=/results-01/";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data/sub-02/working,target=/results-02/";
-            command = command + " --mount type=bind,source=C:/Users/akhaled/Documents/Data/sub-03/working,target=/results-03/";
-            //command = command + " nipype-fmri-por2";
-            command = command + " nipype-fmri-por-code-datasink-all-qt-3subjects-nopar-separateresults";
+            command = command + " --mount type=bind,source=" + subjectDir + ",target=/" + sub_idField;
+            command = command + " --mount type=bind,source=" + outputDir + ",target=/work/";
+            command = command + " --mount type=bind,source=" + outputDir + ",target=/results/";
+            command = command + " nipype-processing";
+            command = command + " & pause";
 
 
-    /*QMessageBox msgWarning;
-            msgWarning.setText(command);
-            msgWarning.setIcon(QMessageBox::Warning);
-            msgWarning.setWindowTitle("Caution");
-            msgWarning.exec();*/
-    qDebug()  << "Systemcall: command_name =" << command;
+
+    /*QMessageBox msgWarning2;
+            msgWarning2.setText(command);
+            msgWarning2.setIcon(QMessageBox::Warning);
+            msgWarning2.setWindowTitle("Caution");
+            msgWarning2.exec();*/
+
+    //qDebug()  << "Systemcall: command_name =" << command;
     system(command.toUtf8());
+
     //QProcess::execute(command.toUtf8());
     //QProcess::execute("cmd /c mkdir Test");
 

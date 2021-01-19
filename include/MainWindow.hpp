@@ -120,6 +120,13 @@ private slots:
     void updateNodeMenu(
             const QStringList& _node
             );
+    void prepareNewSubject(
+            );
+    void saveResultsSubject(
+            );
+    void cleanUpSubject(
+            );
+
 public slots:
     //
     void nodeToCode(
@@ -133,6 +140,7 @@ public slots:
     //
     void saveResults(
             );
+
 private:
     void createActions(
             );
@@ -160,6 +168,7 @@ private:
 
     int m_currentFileIndex;
 
+    QMenu* m_projectMenu;
     QMenu* m_fileMenu;
     QMenu* m_editMenu;
     QMenu* m_viewMenu;
@@ -167,6 +176,9 @@ private:
     QMenu* m_postitMenu;
     QMenu* m_pipelineMenu;
 
+    QAction* m_prepareNewSubjectAct;
+    QAction* m_saveResultsSubjectAct;
+    QAction* m_cleanUpSubjectAct;
     QAction* m_newAct;
     QAction* m_openAct;
     QAction* m_saveToJsonAct;

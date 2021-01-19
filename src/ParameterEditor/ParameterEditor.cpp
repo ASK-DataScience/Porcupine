@@ -23,6 +23,10 @@ ParameterEditor::ParameterEditor(
 
     int row = rowCount();
     insertRow(row);
+    setItem(row, 0, new QTableWidgetItem("sub_id"));
+    setItem(row, 1, new QTableWidgetItem(""));
+
+    insertRow(row);
     setItem(row, 0, new QTableWidgetItem("OutputDirectory"));
     setItem(row, 1, new QTableWidgetItem("\"/Output\""));
 
